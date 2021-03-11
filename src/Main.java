@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         double balance = 0;
-
+        System.out.println("Hello");
         while(true)
         {
             String[] menu = {"1. Einzahlen", "2. Auszahlen", "3. Kontostand", "4. Beenden"};
